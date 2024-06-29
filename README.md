@@ -1,9 +1,9 @@
 # DeePMD-MLP
 ## [Molecular Dynamics with DeePMD](https://github.com/deepmodeling/deepmd-kit) [<a href="https://tutorials.deepmodeling.com/en/latest/" style="color:orange">DeepModeling Tutorial!</a>]
 
-#### Required Libraries : [numpy](https://pypi.org/project/numpy/), [pandas](https://pandas.pydata.org/), [deepmd](https://github.com/deepmodeling/deepmd-kit),[dpdata](https://github.com/deepmodeling/dpdata), [ase](https://pypi.org/project/ase/), [matplotlib](https://pypi.org/project/matplotlib/)
+### Required Libraries : [numpy](https://pypi.org/project/numpy/), [pandas](https://pandas.pydata.org/), [deepmd](https://github.com/deepmodeling/deepmd-kit),[dpdata](https://github.com/deepmodeling/dpdata), [ase](https://pypi.org/project/ase/), [matplotlib](https://pypi.org/project/matplotlib/)
 
-This is a tutorial for the `DeePMD`package, a Machine Learning Interatomic Potential (MLP) model for interatomic potential energy and force field and to perform molecular dynamics (MD).
+This is a tutorial for `DeePMD`package, a Machine Learning Interatomic Potential (MLP) model for interatomic potential energy and force field and to perform molecular dynamics (MD).
 <br>
 
 In-general, steps to build MLPs usually require three main steps: <br>
