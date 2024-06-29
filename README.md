@@ -7,9 +7,9 @@ This is a tutorial for the `DeePMD`package, a Machine Learning Interatomic Poten
 <br>
 
 In-general, steps to build MLPs usually require three main steps: <br>
-1. Data generation      [00.data]
-2. Training             [01.train]
-3. Molecular dynamics   [02.lmp]
+1. Data generation      `[00.data]`
+2. Training             `[01.train]`
+3. Molecular dynamics   `[02.lmp]`
 
 <br>
 For data generation, we will be using the [VASP](https://www.vasp.at/") package. \
