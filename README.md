@@ -25,7 +25,7 @@ The output configurations are stored in the folder inside the `00.data` director
 </div>
 
 ## Author:
-#### Rahul Verma <br>
-#### Dept. of Chemical and Biomolecular Engineering <br>
-#### North Carolina State University, Raleigh, NC, USA <br>
-#### Email: rverma7@ncsu.edu
+Rahul Verma \
+Dept. of Chemical and Biomolecular Engineering \
+North Carolina State University, Raleigh, NC, USA \
+Email: rverma7@ncsu.edu
