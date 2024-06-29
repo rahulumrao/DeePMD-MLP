@@ -20,8 +20,10 @@ Here, I will not go into the details for generating the initial configuration. H
 
 The output configurations are stored in the folder inside the `00.data` directory.
 
-#================================================================
-
 <div class="alert alert-block alert-info">
     <span style="font-size: 1.2em; color: green;"> <b>Note:</b> Energies and forces for these configurations are obtained using PBE functional. </span>
 </div>
+
+#--------------------------------------------#
+# Written by: Rahul Verma (rverma7@ncsu.edu)
+#--------------------------------------------#
