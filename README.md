@@ -1,7 +1,13 @@
-# _DeePMD ML Potential Model_
+# _DeePMD ML Potential Model for Molecular Simulation_
 ## [Molecular Dynamics with DeePMD](https://github.com/deepmodeling/deepmd-kit) [<a href="https://tutorials.deepmodeling.com/en/latest/" style="color:orange">DeepModeling Tutorial!</a>]
 
 ### Required Libraries : [numpy](https://pypi.org/project/numpy/), [pandas](https://pandas.pydata.org/), [deepmd](https://github.com/deepmodeling/deepmd-kit),[dpdata](https://github.com/deepmodeling/dpdata), [ase](https://pypi.org/project/ase/), [matplotlib](https://pypi.org/project/matplotlib/)
+
+
+### System : 1,3-Butadiene Cyclization
+
+<img src="mechanism.jpeg" alt="FES Image" style="width: 100%; max-width: 400px; height: auto; float: right; 
+
 
 This is a tutorial for `DeePMD`package, a Machine Learning Interatomic Potential (MLP) model for interatomic potential energy and force field and to perform molecular dynamics (MD).
 <br>
