@@ -24,8 +24,8 @@ The output configurations are stored in the folder inside the `00.data` director
     <span style="font-size: 1.2em; color: green;"> <b>Note:</b> Energies and forces for these configurations are obtained using PBE functional. </span>
 </div>
 
-### Author:
-Rahul Verma
-Dept. of Chemical and Biomolecular Engineering
-North Carolina State University, Raleigh, NC, USA
+## Author:
+Rahul Verma <br>
+Dept. of Chemical and Biomolecular Engineering <br>
+North Carolina State University, Raleigh, NC, USA <br>
 Email: rverma7@ncsu.edu
