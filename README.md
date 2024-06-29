@@ -6,9 +6,7 @@
 
 ### System : 1,3-Butadiene Cyclization
 
-![Alt text](mechanism.jpeg)
-
-<<!-- <img src="mechanism.jpeg" alt="FES Image" style="width: 100%; max-width: 400px; height: auto; float: right; --!>
+<img src="mechanism.jpeg" alt="FES Image" style="width: 100%; max-width: 400px; height: auto; float: right; margin-left: 15px;">
 
 
 This is a tutorial for `DeePMD`package, a Machine Learning Interatomic Potential (MLP) model for interatomic potential energy and force field and to perform molecular dynamics (MD).
