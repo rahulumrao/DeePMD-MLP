@@ -1,0 +1,68 @@
+# Loading Required Libraries: openmpi-gcc/openmpi4.1.0-gcc9.3.0
+# Activating DeepMD-kit with python interface: /rs1/researchers/w/wjpfaend/rahul/MLP/DeePMD-kit/tensorflow/bin/
+# Activating PLUMED Library for Enhance Sampling: /rs1/researchers/w/wjpfaend/rahul/MLP/DeePMD-kit/plumed-2.5.7
+# Activating LAMMPS interface with DeePMD-kit + PLUMED: /rs1/researchers/w/wjpfaend/rahul/MLP/DeePMD-kit/lammps-deepmd_plumed/src
+Mon May 20 15:32:20 EDT 2024
+Mon May 20 19:07:12 EDT 2024
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@c006n03>
+Subject: Job 290533: <dp_trn_btd> in cluster <Hazel> Done
+
+Job <dp_trn_btd> was submitted from host <login03> by user <rverma7> in cluster <Hazel> at Mon May 20 15:32:16 2024
+Job was executed on host(s) <4*c006n03>, in queue <single_chassis>, as user <rverma7> in cluster <Hazel> at Mon May 20 15:32:17 2024
+</home/rverma7> was used as the home directory.
+</share/pfaendtnergroup/rverma7/MLP/DeePMD/Butadiene/from_traj/01.train> was used as the working directory.
+Started at Mon May 20 15:32:17 2024
+Terminated at Mon May 20 19:07:12 2024
+Results reported at Mon May 20 19:07:12 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+#BSUB -n 4		# number of processor
+#BSUB -W 24:00		# wall clock time
+#BSUB -q single_chassis	# Queue Name
+#BSUB -J dp_trn_btd 	# Name of job
+#BSUB -R span[hosts=1] 	# Name of job
+#BSUB -o stdout.%J	# standard out
+#BSUB -e stderr.%J	# standatd error
+
+source /usr/share/Modules/init/bash
+# Load module file
+source activate_deepmd.sh
+
+date
+
+dp train input.json
+
+date
+
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   41269.50 sec.
+    Max Memory :                                 1 GB
+    Average Memory :                             0.99 GB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                102
+    Run time :                                   12915 sec.
+    Turnaround time :                            12896 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <stderr.290533> for stderr output of this job.
+

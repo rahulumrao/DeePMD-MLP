@@ -1,0 +1,22 @@
+# PLUMED FILE
+# -------------------------------------
+# 		UNITS
+# -------------------------------------
+UNITS LENGTH=A ENERGY=kcal/mol
+#
+d1: DISTANCE ATOMS=1,4
+d2: DISTANCE ATOMS=2,1
+d3: DISTANCE ATOMS=3,2
+d4: DISTANCE ATOMS=4,3
+#
+# Activate Umbrella Sampling in distance (butadiene)
+# with kapps equal to 0.4au/Bohr (224.1 kcal/mol/Ang^2), distance equal Angstrom
+#
+
+rest: RESTRAINT ARG=d1 KAPPA=896.4 AT=2.6
+
+FLUSH STRIDE=100
+
+PRINT ARG=d1,d2,d3,d4,rest.bias STRIDE=100 FILE=COLVAR
+
+
