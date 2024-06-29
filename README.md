@@ -18,6 +18,11 @@ For data generation, we will be using the [VASP](https://www.vasp.at/") package.
 
 Here, I will not go into the details for generating the initial configuration. However, there are several ways to do that. A straightforward approach involves performing a classical MD simulation to obtain random configurations. Subsequently, <i>ab-initio</i> calculations are performed to compute the potential energy and corresponding forces (in this case, we will be using VASP). <br>
 
+<p style="text-align: justify;">
+Here, I will not go into the details for generating the initial configuration. However, there are several ways to do that. A straightforward approach involves performing a classical MD simulation to obtain random configurations. Subsequently, <i>ab-initio</i> calculations are performed to compute the potential energy and corresponding forces (in this case, we will be using VASP). <br>
+</p>
+
+
 The output configurations are stored in the folder inside the `00.data` directory.
 
 <div class="alert alert-block alert-info">
